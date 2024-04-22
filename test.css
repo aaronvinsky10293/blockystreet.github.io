@@ -1,0 +1,100 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #595959;
+    background-color: transparent;
+}
+
+/* Heading styles */
+h1, .title {
+    font-size: 26px;
+    color: #000000;
+}
+
+h2, .heading_1 {
+    font-size: 19px;
+    color: #000000;
+}
+
+h3, .heading_2 {
+    font-size: 17px;
+    color: #000000;
+}
+
+/* Text and link styles */
+p, li, .body_text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a, .link {
+    color: #3030F1;
+    text-decoration: none;
+}
+
+a:hover, .link:hover {
+    text-decoration: underline;
+}
+
+/* Specific element styles */
+.subtitle {
+    color: #595959;
+    font-size: 14px;
+}
+
+/* List styles */
+ul {
+    list-style-type: square;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
+
+/* Remove default margins and padding for a clean layout */
+ul, p, h1, h2, h3, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Specific padding and margins */
+.container {
+    padding: 20px;
+}
+
+/* Styling for special sections or notices */
+.notice {
+    font-weight: bold;
+    color: red; /* Just an example to highlight special notices */
+}
+
+/* Responsive design settings */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, .title {
+        font-size: 22px; /* Smaller font size on smaller screens */
+    }
+}
+
+/* Additional styling for icons or images */
+.icon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+
+/* Use classes to adjust the visibility or display of elements as needed */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
